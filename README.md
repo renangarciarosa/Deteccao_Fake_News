@@ -1,6 +1,6 @@
 # Deteccao_Fake_News
 
-# Detectando notícias falsas com Python
+# Detectando notícias falsas com Python e Machine Learning
 
 Para construir um modelo para classificar com precisão uma notícia como REAL ou FALSIFICADA.
 
