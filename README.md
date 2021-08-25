@@ -10,10 +10,13 @@ Este projeto Python avançado de detecção de notícias falsas lida com notíci
 
 # O conjunto de dados de notícias falsas
 
-O conjunto de dados que usaremos para este projeto Python - vamos chamá-lo de news.csv. Este conjunto de dados tem o formato de 7796 × 4. 
+O conjunto de dados que usaremos para este projeto Python - vamos chamá-lo de news.csv. Os dados podem ser encontrados em https://www.kaggle.com/c/fake-news/data e trabalhados de várias maneiras. Neste caso, fiz a junção dos arquivos train e test em 1 só para aplicar a função train_test_split do sklearn.
+
+Portanto, este conjunto de dados tem o formato de 7796 × 4. 
 1. A primeira coluna identifica a notícia, 
-2. a segunda e a terceira são o título e o texto, 
-3. e a quarta coluna possui rótulos que indicam se a notícia é REAL ou FALSIFICADA.
+2. título 
+3. texto
+4. e a quarta coluna possui rótulos que indicam se a notícia é REAL ou FALSIFICADA.
 
 # Ferramentas utilizadas neste projeto
 * NumPy
